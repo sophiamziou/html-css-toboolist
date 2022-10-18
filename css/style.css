@@ -71,3 +71,26 @@ nav {
 hr {
     border-top: 1px solid rgb(236, 237, 237);
 }
+
+
+.lista {
+    padding-left: 50px;
+    padding-top: 35px;
+    font-family: sans-serif;
+}
+
+ul {
+    line-height: 45px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+li::before {
+    content: ' \2713';
+    color: green;
+    padding: 2px 4px;
+    border: 1px solid green;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 12px;
+}
