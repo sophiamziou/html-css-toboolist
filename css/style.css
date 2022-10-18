@@ -7,3 +7,23 @@
 body {
     background-color: rgb(236, 237, 237);
 }
+
+
+
+.header {
+    height: 80px;
+    background-color: white;
+}
+
+.img-logo {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 40px;
+    font-family: sans-serif;
+}
