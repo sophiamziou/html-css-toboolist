@@ -34,7 +34,6 @@ h1 {
 main {
     margin-top: 35px;
     width: 70%;
-    height: 600px;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
@@ -86,13 +85,24 @@ ul {
 }
 
 li::before {
-    content: ' \2713';
-    color: green;
     padding: 2px 4px;
-    border: 1px solid green;
     border-radius: 50%;
     margin-right: 10px;
     font-size: 12px;
+    border: 1px solid;
+}
+
+.done::before{
+    content: ' \2713';
+    color: green;
+    border-color: green;
+}
+
+.undone::before{
+    content: ' \2715';
+    color: red;
+    border-color: red;
+
 }
 
 span {
