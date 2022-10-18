@@ -9,7 +9,7 @@ body {
 }
 
 
-
+/* header settings */
 .header {
     height: 80px;
     background-color: white;
@@ -30,24 +30,27 @@ h1 {
     font-family: sans-serif;
     vertical-align: middle;
 }
+/* end header settings*/
 
+/* main setting */
 main {
-    margin-top: 35px;
-    width: 70%;
-    background-color: white;
+    margin-top: 55px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
+    width: 70%;
+    background-color: white;
     border-radius: 10px;
+    padding-bottom: 45px;
 }
 
+/* start nav settings */
 nav {
     padding-left: 50px;
     padding-top: 15px;
     padding-bottom: 10px;
     border: 10px;
 }
-
-
 
 #blue-button {
     background-color: rgb(71,173,241);
@@ -70,9 +73,10 @@ nav {
 hr {
     border-top: 1px solid rgb(236, 237, 237);
 }
+/* end nav settings */
 
-
-.lista {
+/* start list */
+.list {
     padding-left: 50px;
     padding-top: 35px;
     font-family: sans-serif;
@@ -102,13 +106,14 @@ li::before {
     content: ' \2715';
     color: red;
     border-color: red;
-
 }
+/* end list */
 
+/* start list boxes */
 span {
     display: inline-block;
     color: white;
-    border-radius: 14px;
+    border-radius: 13px;
     font-size: 13px;
     line-height: 5px;
     padding: 13px;
@@ -137,4 +142,5 @@ span {
 .green-box {
     background-color: rgb(176,201,38);
 }
+/* end list boxes */
 
