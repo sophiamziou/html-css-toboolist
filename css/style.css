@@ -13,6 +13,7 @@ body {
 .header {
     height: 80px;
     background-color: white;
+    line-height: 80px;
 }
 
 .img-logo {
@@ -20,10 +21,53 @@ body {
     height: 60px;
     margin: 10px;
     margin-left: 20px;
+    vertical-align: middle;
 }
 
 h1 {
     display: inline-block;
     font-size: 40px;
     font-family: sans-serif;
+    vertical-align: middle;
+}
+
+main {
+    margin-top: 35px;
+    width: 70%;
+    height: 600px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+nav {
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border: 10px;
+}
+
+
+
+#blue-button {
+    background-color: rgb(71,173,241);
+    color: white;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#white-button{
+    background-color: white;
+    border: 1px solid lightgrey;
+    color: lightgrey;
+    padding: 8px 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+hr {
+    border-top: 1px solid rgb(236, 237, 237);
 }
